@@ -1,0 +1,93 @@
+nav {
+    background-color: rgb(52, 58, 64) !important;
+}
+
+#page_back {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#main {
+    padding: 20px 12px;
+}
+
+#category_container {
+    margin: auto !important;
+    margin-top: 40px !important;
+    max-width: 1000px;
+}
+
+.col {
+    transition: all 0.5s;
+    border: 1px solid black;
+    margin: 20px 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.col > a {
+    color: black;
+    text-decoration: none;
+}
+
+.col:hover {
+    transition: all 0.5s;
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+}
+
+#module_tags {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.module_tag {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.module_tag:last-child {
+    margin-right: 0px;
+}
+
+#download_module {
+    display: block;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    background-color: #28a745;
+}
+
+#module_description {
+    margin-bottom: 60px;
+}
+
+.versions {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.versions > p {
+    margin-bottom: 5px;
+}
+
+.version-title {
+    margin-bottom: 2px;
+}
+
+.versions > hr {
+    margin-top: 0px;
+}
